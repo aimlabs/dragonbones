@@ -24,7 +24,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum BinaryOffset {
+    enum BinaryOffset {
         WeigthBoneCount = 0,
         WeigthFloatOffset = 1,
         WeigthBoneIndices = 2,
@@ -52,7 +52,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum ArmatureType {
+    enum ArmatureType {
         Armature = 0,
         MovieClip = 1,
         Stage = 2
@@ -60,14 +60,14 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum BoneType {
+    enum BoneType {
         Bone = 0,
         Surface = 1
     }
     /**
      * @private
      */
-    const enum DisplayType {
+    enum DisplayType {
         Image = 0,
         Armature = 1,
         Mesh = 2,
@@ -84,7 +84,7 @@ declare namespace dragonBones {
      * @version DragonBones 5.0
      * @language zh_CN
      */
-    const enum BoundingBoxType {
+    enum BoundingBoxType {
         Rectangle = 0,
         Ellipse = 1,
         Polygon = 2
@@ -92,7 +92,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum ActionType {
+    enum ActionType {
         Play = 0,
         Frame = 10,
         Sound = 11
@@ -100,7 +100,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum BlendMode {
+    enum BlendMode {
         Normal = 0,
         Add = 1,
         Alpha = 2,
@@ -119,7 +119,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum TweenType {
+    enum TweenType {
         None = 0,
         Line = 1,
         Curve = 2,
@@ -130,7 +130,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum TimelineType {
+    enum TimelineType {
         Action = 0,
         ZOrder = 1,
         BoneAll = 10,
@@ -159,7 +159,7 @@ declare namespace dragonBones {
      * @version DragonBones 5.5
      * @language zh_CN
      */
-    const enum OffsetMode {
+    enum OffsetMode {
         None = 0,
         Additive = 1,
         Override = 2
@@ -174,7 +174,7 @@ declare namespace dragonBones {
      * @version DragonBones 4.5
      * @language zh_CN
      */
-    const enum AnimationFadeOutMode {
+    enum AnimationFadeOutMode {
         /**
          * - Fade out the animation states of the same layer.
          * @language en_US
@@ -224,35 +224,35 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum AnimationBlendType {
+    enum AnimationBlendType {
         None = 0,
         E1D = 1
     }
     /**
      * @private
      */
-    const enum AnimationBlendMode {
+    enum AnimationBlendMode {
         Additive = 0,
         Override = 1
     }
     /**
      * @private
      */
-    const enum ConstraintType {
+    enum ConstraintType {
         IK = 0,
         Path = 1
     }
     /**
      * @private
      */
-    const enum PositionMode {
+    enum PositionMode {
         Fixed = 0,
         Percent = 1
     }
     /**
      * @private
      */
-    const enum SpacingMode {
+    enum SpacingMode {
         Length = 0,
         Fixed = 1,
         Percent = 2
@@ -260,7 +260,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum RotateMode {
+    enum RotateMode {
         Tangent = 0,
         Chain = 1,
         ChainScale = 2
@@ -5579,7 +5579,7 @@ declare namespace dragonBones {
     /**
      * @private
      */
-    const enum FrameValueType {
+    enum FrameValueType {
         Step = 0,
         Int = 1,
         Float = 2

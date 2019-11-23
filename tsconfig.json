@@ -13,7 +13,7 @@
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
 		"target": "es5",
-		"outFile": "out/dragonbones.js",
+		"outFile": "out/dragonBones.js",
 		"lib": [
 			"es5",
 			"dom",

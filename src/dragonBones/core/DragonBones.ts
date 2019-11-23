@@ -9,10 +9,10 @@
  * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
  * the Software, and to permit persons to whom the Software is furnished to do so,
  * subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
@@ -24,7 +24,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum BinaryOffset {
+    export enum BinaryOffset {
         WeigthBoneCount = 0,
         WeigthFloatOffset = 1,
         WeigthBoneIndices = 2,
@@ -56,7 +56,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum ArmatureType {
+    export enum ArmatureType {
         Armature = 0,
         MovieClip = 1,
         Stage = 2
@@ -64,14 +64,14 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum BoneType {
+    export enum BoneType {
         Bone = 0,
         Surface = 1
     }
     /**
      * @private
      */
-    export const enum DisplayType {
+    export enum DisplayType {
         Image = 0,
         Armature = 1,
         Mesh = 2,
@@ -88,7 +88,7 @@ namespace dragonBones {
      * @version DragonBones 5.0
      * @language zh_CN
      */
-    export const enum BoundingBoxType {
+    export enum BoundingBoxType {
         Rectangle = 0,
         Ellipse = 1,
         Polygon = 2
@@ -96,7 +96,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum ActionType {
+    export enum ActionType {
         Play = 0,
         Frame = 10,
         Sound = 11
@@ -104,7 +104,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum BlendMode {
+    export enum BlendMode {
         Normal = 0,
         Add = 1,
         Alpha = 2,
@@ -123,7 +123,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum TweenType {
+    export enum TweenType {
         None = 0,
         Line = 1,
         Curve = 2,
@@ -134,7 +134,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum TimelineType {
+    export enum TimelineType {
         Action = 0,
         ZOrder = 1,
 
@@ -168,7 +168,7 @@ namespace dragonBones {
      * @version DragonBones 5.5
      * @language zh_CN
      */
-    export const enum OffsetMode {
+    export enum OffsetMode {
         None,
         Additive,
         Override,
@@ -183,7 +183,7 @@ namespace dragonBones {
      * @version DragonBones 4.5
      * @language zh_CN
      */
-    export const enum AnimationFadeOutMode {
+    export enum AnimationFadeOutMode {
         /**
          * - Fade out the animation states of the same layer.
          * @language en_US
@@ -233,35 +233,35 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum AnimationBlendType {
+    export enum AnimationBlendType {
         None,
         E1D,
     }
     /**
      * @private
      */
-    export const enum AnimationBlendMode {
+    export enum AnimationBlendMode {
         Additive,
         Override,
     }
     /**
      * @private
      */
-    export const enum ConstraintType {
+    export enum ConstraintType {
         IK,
         Path
     }
     /**
      * @private
      */
-    export const enum PositionMode {
+    export enum PositionMode {
         Fixed,
         Percent
     }
     /**
      * @private
      */
-    export const enum SpacingMode {
+    export enum SpacingMode {
         Length,
         Fixed,
         Percent
@@ -269,7 +269,7 @@ namespace dragonBones {
     /**
      * @private
      */
-    export const enum RotateMode {
+    export enum RotateMode {
         Tangent,
         Chain,
         ChainScale
