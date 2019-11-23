@@ -1,8 +1,12 @@
 {
-  "name": "@aimlabs/dragonbones",
-  "version": "1.0.0",
-  "main": "",
-  "license": "MIT",
+  "name": "aimlabs-dragonbones",
+  "version": "2.0.0",
+  "main": "out/dragonBones.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aimlabs/dragonbones.git"
+  },
   "scripts": {
     "build": "tsc & uglifyjs ./out/dragonBones.js -o ./out/dragonBones.min.js -m"
   },
