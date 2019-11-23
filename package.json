@@ -1,0 +1,13 @@
+{
+  "name": "@aimlabs/dragonbones",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc & uglifyjs ./out/dragonBones.js -o ./out/dragonBones.min.js -m"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2",
+    "uglify-js": "^3.6.9"
+  }
+}
